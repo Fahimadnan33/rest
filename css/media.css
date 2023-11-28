@@ -1,0 +1,276 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /*header start*/
+    header {
+	    padding: 10px 0;
+	}
+	.logo h1 {
+	    font-size: 21px;
+	}
+	.menu ul li a {
+	    float: right;
+	    padding: 6px 0 0 !important;
+	}
+    /* bananer start  */
+    .banner {
+        background-position: top;
+    }
+    .b_text {
+        padding: 80px 0;
+        margin: 200px 0;
+    }
+    .b_text h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .b_text p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .button {
+        justify-content: center;
+        display: flex;
+    }
+    .c_btn {
+        margin: 0px 6px;
+        text-transform: capitalize;
+        
+    }
+      /* abuot start  */
+      .abuot {
+        background-position: left;
+    }
+      .abuot{
+        padding: 50px 0;
+    }
+    .abuot_img {
+        padding: 0px;
+    }
+    .abuot_text {
+        margin-top: 20px;
+        padding: 0px;
+        color: #fff;
+    }
+    .abuot_text h2 {
+        font-weight: 400;
+        font-size: 26px;
+    }
+    .abuot_text p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+      /* .choose start  */
+    .choose {
+        padding: 50px 0;
+    }
+    .c_titale_h2 {
+        text-align: center;
+        font-size: 30px;
+     }
+
+
+    .c_curd {
+        margin: 30px 20px;
+    }
+      /* menu itam start  */
+                    
+     .menu_itame {
+     padding: 50px 0;
+     background-color: #000;
+     }
+     .food_img {
+        padding: 35px 0;
+     }
+     .food_cont h4 span {
+        visibility: hidden;
+    }
+    .food_cont h4 {
+        font-size: 21px;
+    }
+    .food_cont p {
+        margin-top: -35px;
+        font-size: 20px;
+    }
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /*header start*/
+     header {
+	    padding: 10px 0;
+	}
+	.logo h1 {
+	    font-size: 21px;
+	}
+	.menu ul li a {
+	    float: right;
+	    padding: 6px 0 0 !important;
+	}
+     /* bananer start  */
+     .banner {
+        background-position: inherit;
+    }
+     .b_text {
+      margin: 330px 0;
+    }
+   
+     .b_text h2 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .b_text p {
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .button {
+        justify-content: center;
+        display: flex;
+    }
+      /* abuot start  */
+      .abuot{
+        padding: 50px 0;
+    }
+    .abuot_img {
+        padding: 0 20px;
+    }
+    .abuot_text {
+        margin-top: 20px;
+        padding: 0px 12px;
+        color: #fff;
+    }
+    .abuot_text p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    /* .choose start  */
+    .choose {
+        padding: 50px 0;
+    }
+      /* menu itam start  */
+      .menu_itame {
+        padding: 50px 0;
+        background-color: #000;
+        }
+
+        .food_img {
+            padding: 35px 0;
+         }
+      .food_cont h4 span {
+        /* visibility: hidden; */
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    header {
+	    padding: 15px 0;
+	}
+	.menu ul li a {
+	    float: right;
+	    padding: 10px 0 0 !important;
+	}
+    /* bananer start  */
+    .b_text h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    /* banner start  */
+    .b_text {
+        margin: 0;
+        padding:  320px 0;
+    }
+    /* abuot start  */
+    .abuot{
+        padding: 70px 0;
+    }
+    .abuot_img {
+        padding: 0 20px;
+    }
+    .abuot_text {
+        color: #fff;
+        padding: 0 76px;
+        margin-top: 20px;
+    }
+    /* .choose start  */
+    .choose {
+        padding: 70px 0;
+    }
+    /* menu itam start  */
+    .menu_itame {
+        padding: 70px 0;
+    }
+    .food_cont h4 span {
+        visibility: hidden;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* banner start  */
+     /* abuot sratr  */
+     .abuot_text p {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    /* chosse start  */
+    .c_curd {
+        padding: 35px 20px;
+        background-color: #000;
+        border-radius: 5px;
+        text-align: center;
+        color: #fff;
+        transition: linear .3s;
+        cursor: pointer;
+    }
+      /* vertical menu start */
+      .v_n_m h3 {
+        font-size: 23px;
+    }
+
+      .v_n_m p {
+        margin: 10px 0;
+    }
+     /* events start  */
+    h5 {
+        margin: 5px 0;
+    }
+    .e_tex ul li {
+        margin: 5px 0;
+    }
+    .e_last_p {
+        margin-top: 5px !important;
+    }
+
+
+    
+ }
+
+/*extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* abuot sratr  */
+    .abuot_text p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    /* vertical menu start */
+    .v_n_m p {
+        margin: 20px 0;
+    }
+    /* events strat  */
+    h5 {
+        margin: 5px 0;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    .e_last_p{
+      margin-top: 10px !important;
+
+    }
+ }
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) { }
